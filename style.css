@@ -1,0 +1,48 @@
+body {
+  font-family: Georgia, serif;
+  background: #f4f1ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.book {
+  width: 60%;
+  max-width: 700px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#content {
+  min-height: 300px;
+  line-height: 1.6;
+}
+
+.controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+.choice {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+  cursor: pointer;
+}
